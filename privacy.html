@@ -1,1 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
 
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="theme-color"
+    content="#5865F2"
+  >
+
+  <meta
+    name="description"
+    content="Como o DiscordBut utiliza, protege, retém e exclui os dados necessários ao funcionamento do serviço."
+  >
+
+  <title>Política de Privacidade — DiscordBut</title>
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
+</head>
+
+<body>
+  <main class="shell">
+
+    <header class="topbar">
+      <a
+        class="brand"
+        href="index.html"
+      >
+        <span class="logo">🤖</span>
+        <span>DiscordBut</span>
+      </a>
+
+      <nav>
+        <a href="index.html">
+          Início
+        </a>
+
+        <a
+          class="active"
+          href="privacy.html"
+        >
+          Privacidade
+        </a>
+
+        <a href="terms.html">
+          Termos
+        </a>
+
+        <a
+          href="https://discord.gg/pWMg8z9PDG"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Comunidade oficial
+        </a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <span class="badge">
+        DiscordBut • Documento oficial
+      </span>
+
+      <h1>Política de Privacidade</h1>
+
+      <p>
+        Como o DiscordBut utiliza, protege, retém e exclui os
+        dados necessários ao funcionamento do serviço.
+      </p>
+
+      <div class="meta">
+        <span>
+          Última atualização: 06/09/2026
+        </span>
+
+        <span>
+          Versão pública: 1.1.0
+        </span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>1. Visão geral</h2>
+
+      <p>
+        O DiscordBut persiste somente os dados necessários para os
+        módulos usados pela comunidade, segurança, auditoria e
+        operação do bot. Métricas de produto são agregadas, e o
+        sistema de atividade não mantém o conteúdo integral das
+        mensagens como histórico de conversa.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>2. Dados funcionais</h2>
+
+      <ul>
+        <li>
+          configurações, módulos, cargos e canais associados e painéis;
+        </li>
+
+        <li>
+          XP, missões, temporadas e conquistas quando habilitados;
+        </li>
+
+        <li>
+          economia, Loja de Cores e livro-caixa quando XP e Níveis
+          estiver habilitado;
+        </li>
+
+        <li>
+          tickets, eventos, grupos, reputação, verificação, lives
+          e salas conforme o módulo;
+        </li>
+
+        <li>
+          atividade comunitária diária, incluindo quantidade de
+          mensagens válidas e duração de presença em voz;
+        </li>
+
+        <li>
+          histórico operacional necessário para diagnóstico,
+          segurança e recuperação.
+        </li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>3. Mensagens e voz</h2>
+
+      <p>
+        Para contabilizar atividade, o DiscordBut valida mensagens
+        recebidas e descarta conteúdo vazio, muito curto ou repetido
+        conforme as regras do sistema. O texto completo das mensagens
+        não é persistido pelo sistema de XP/atividade.
+      </p>
+
+      <p>
+        Em voz, o bot registra identificadores técnicos da comunidade,
+        usuário e canal, além do início da sessão e da duração calculada.
+        Uma sessão só conta como atividade quando existem pelo menos
+        duas pessoas reais na mesma sala. Bots e o canal AFK não tornam
+        a sessão elegível.
+      </p>
+
+      <div class="notice">
+        <strong>
+          Nenhum áudio é capturado, gravado ou processado pelo DiscordBut.
+        </strong>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>4. Economia e Extrato</h2>
+
+      <p>
+        O Extrato da economia registra o valor de cada nova movimentação,
+        saldo anterior e posterior, motivo, referência operacional e
+        horário. Totais recebidos e gastos também podem ser mantidos
+        para consistência do saldo, rankings e suporte.
+      </p>
+
+      <p>
+        Saldo, totais acumulados, inventário e compras necessárias
+        para operar a Loja permanecem associados à comunidade enquanto
+        necessários. O Extrato de Moedas detalhado é mantido por até
+        <strong>365 dias por padrão</strong>, configurável pelo operador.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>5. Apoio voluntário via Pix</h2>
+
+      <p>
+        O fluxo de apoio utiliza o Asaas para processar Pix. O DiscordBut
+        gera um QR Code individual e entrega o QR Code e o Pix Copia e
+        Cola em resposta privada.
+      </p>
+
+      <p>
+        O DiscordBut não solicita nem armazena dentro do Discord CPF,
+        senha bancária, dados de cartão ou credenciais da conta do
+        pagador. O processamento financeiro ocorre no Asaas/Pix.
+      </p>
+
+      <p>
+        Para conciliar um apoio, o DiscordBut registra somente os
+        identificadores técnicos necessários, como ID do usuário e
+        da comunidade oficial no Discord, ID do QR Code, referência
+        interna, ID da cobrança, valor, status e datas operacionais.
+      </p>
+
+      <p>
+        Quando o webhook está habilitado, os eventos recebidos são
+        autenticados e persistidos de forma idempotente com dados
+        reduzidos ao necessário para conciliação.
+      </p>
+
+      <p>
+        Após confirmação, o usuário pode receber o cargo
+        <strong>💙 ・Apoiador</strong>
+        e acesso às áreas Beta. Esse reconhecimento não concede
+        permissões administrativas, XP, moedas ou vantagem em rankings.
+        Em caso de estorno ou chargeback, o reconhecimento pode ser
+        revogado quando não houver outro apoio válido.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>6. Logs e segurança</h2>
+
+      <p>
+        Logs operacionais passam por sanitização antes da gravação.
+        Tokens, cabeçalhos de autorização, URLs de webhook, senhas,
+        secrets e chaves detectáveis são substituídos por marcadores
+        de conteúdo ocultado.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>7. Retenção</h2>
+
+      <ul>
+        <li>
+          histórico operacional, auditoria e diagnósticos resolvidos
+          seguem a retenção configurada pelo operador;
+        </li>
+
+        <li>
+          arquivos de log local seguem a política de retenção operacional;
+        </li>
+
+        <li>
+          notificações e dados temporários possuem limpeza periódica própria;
+        </li>
+
+        <li>
+          registros temporários de desfazer expiram e são removidos
+          pela manutenção;
+        </li>
+
+        <li>
+          backups seguem a retenção configurada, inclusive no espelho
+          externo quando habilitado.
+        </li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>8. Remoção do bot e exclusão de dados</h2>
+
+      <p>
+        Remover o DiscordBut de uma comunidade não apaga automaticamente
+        todos os dados isolados daquela comunidade. Configurações e dados
+        funcionais podem permanecer preservados para permitir reinstalação
+        e recuperação da configuração anterior.
+      </p>
+
+      <p>
+        Na desconexão, estados transitórios que não devem continuar
+        contando são encerrados, como sessões abertas de voz.
+      </p>
+
+      <p>
+        O proprietário da comunidade pode solicitar exclusão pela área
+        <strong>
+          Configuração avançada → Privacidade e retenção →
+          Excluir dados da comunidade
+        </strong>,
+        com confirmação explícita. A exclusão dos dados do bot não remove
+        automaticamente cargos e canais existentes no próprio Discord.
+      </p>
+
+      <p>
+        Um membro também pode solicitar revisão ou exclusão de dados
+        pessoais vinculados ao seu usuário quando aplicável. Dados que
+        precisem ser mantidos temporariamente por segurança, prevenção
+        de abuso ou obrigação legal podem receber tratamento distinto
+        e limitado ao necessário.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>9. Métricas agregadas</h2>
+
+      <p>
+        A Central Oficial pode agregar quantidades de comunidades,
+        módulos habilitados, instalações concluídas, painéis ativos,
+        eventos operacionais e erros. Essas métricas são contagens e
+        não incluem o texto das mensagens dos usuários.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>10. Contato</h2>
+
+      <p>
+        Solicitações relacionadas a privacidade, acesso ou exclusão
+        de dados devem ser feitas pelos canais oficiais de suporte
+        do DiscordBut.
+      </p>
+
+      <p>
+        <a
+          href="https://discord.gg/pWMg8z9PDG"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          💙 Acessar a comunidade oficial
+        </a>
+      </p>
+    </section>
+
+    <footer>
+      DiscordBut — O melhor bot para Discord.
+      <br>
+      Sua comunidade. Mais completa. Mais inteligente.
+    </footer>
+
+  </main>
+</body>
+</html>
